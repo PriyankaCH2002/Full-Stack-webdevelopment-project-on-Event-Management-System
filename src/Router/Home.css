@@ -1,0 +1,15 @@
+.Home_Page{
+    background-image: url(./Home_p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+.Home_text h1{
+    padding: 20% 28%;
+    align-items: center;
+    color: aquamarine;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
