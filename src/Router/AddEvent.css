@@ -1,0 +1,89 @@
+body{
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+.Main{
+    background-image: url(./Home_P.jpg);
+}
+.header{
+    text-align: center;
+}
+
+.Add_Event{
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border:2px solid black;
+    padding-left: 50px;
+    margin: 50px 470px;
+    width: 400px;
+}
+.Add_Event .Title{
+    margin-top: 10px;
+}
+.Add_Event button{
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.Add_Event button:hover{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+
+/* AddEvent.css */
+.Main {
+    margin: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  
+  
+  .Title {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for Event component */
+  .Event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .Event h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .Event p {
+    margin-bottom: 5px;
+  }
+  
+  .Event button {
+    margin-top: 10px;
+  }
+  
+  /* Styling for Navbar component */
+  .Navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .Navbar a:hover {
+    text-decoration: underline;
+  }
+    
