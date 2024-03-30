@@ -1,0 +1,52 @@
+
+.LandingPage_Container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./LandingPage.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap:5px;
+}
+.LandingPage_Container .Login_SignUp{
+    margin-left: 80%;
+
+    
+}
+ .LoginIn{
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+
+}
+.SignUp{
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
+
+.SignUp:hover{
+    background-color:green;
+}
+
+.LoginIn:hover{
+    background-color:green;
+}
+
+.LandingPage_Container h1{
+    margin-left: 100px;
+    font-size: 40px;
+    
+}
+.LandingPage_Container .content{
+    padding:10% 25%;
+}
+.LandingPage_Container p{
+    font-size: 17px;
+}
